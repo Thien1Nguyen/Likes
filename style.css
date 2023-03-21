@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* IMAGINE CONTROL */
+img{
+    width: 100px;
+}
+
+.networkBanner{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.columnContainer{
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+    padding: 10px;
+    gap:50px
+    
+} 
+/* <!---------LEFTCOLUMN ----------------> */
+.leftColumn{
+    margin-top: 50px;
+    flex: 1;
+}
+
+.profileBox{
+    border: 3px solid black;
+    padding: 10px;
+}
+.userIcon{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.addAv{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+.name{
+    color: aquamarineS;
+    margin: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* <-----------------RIGHTCOLUMN------------> */
+.rightColumn{
+    flex: 3
+}
+.feedHeader{
+    height: 50px;
+    color: rebeccapurple;
+}
+.feedBox{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding: 10px;
+    width: 400px;
+    border: 3px solid black;
+}
+
+.activeBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 350px;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.likeBtn{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(249, 218, 120);
+    border: 3px solid black;
+    padding:5px 10px;
+    box-shadow: 3px 3px 1px black;
+}
+
+.textBox{
+margin-top: 20px;
+font-size: 1.5rem;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+
+<body>
+    <!------------NETWORKBANNER----------->
+    <h1 class="networkBanner"> Network </h1>
+    <!--------COLUMNCONTAINER------->
+    <div class="columnContainer">
+        <!---------LEFTCOLUMN ---------------->
+        <div class="leftColumn">
+            <div class="profileBox">
+                <p><img src="icons/user-circle.png" alt="user icon" class="userIcon"></p>
+                <a href="google.com" class="addAv"> Add an avatar</a>
+                <p class="name"> James Doe</p>
+            </div>
+        </div>
+
+        <!---------RIGHTCOLUMN ---------------->
+        <div class="rightColumn">
+        <!------------RIGHTHEADER0-------------->
+        <h1 class="feedHeader"> Your Feed</h1>
+            <div class="feedBox">
+                <div class="activeBanner">
+                    <h2>Some User</h2>
+                    <p><span id="like1"> 9 </span> like(s) </p>
+                    <button class="likeBtn" onclick="addCount1()"> Like </button>
+                </div>
+                <p class="textBox">I just set up this new dicord bot, let me know what you all think. <a href="google.com">link</a></p>
+            </div>
+            <div class="feedBox">
+                <div class="activeBanner">
+                    <h2>Some User</h2>
+                    <p><span id="like2"> 12 </span> like(s) </p>
+                    <button class="likeBtn" onclick="addCount2()"> Like </button>
+                </div>
+                <p class="textBox">Just finished my <a href="google.com">next comic</a>, check it out.</p>
+            </div>
+            <div class="feedBox">
+                <div class="activeBanner">
+                    <h2>Some User</h2>
+                    <p><span id="like3"> 9 </span> like(s) </p>
+                    <button class="likeBtn" onclick="addCount3()"> Like </button>
+                </div>
+                <p class="textBox">I can't stop listening to the <a href="google.com">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
